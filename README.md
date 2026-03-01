@@ -43,7 +43,19 @@ To run this project with zero or minimal cost, follow these steps:
 - **Glassmorphism UI**: A modern, professional interface built with Ant Design and Tailwind CSS.
 - **Desktop Bridge**: Electron IPC handlers ready for local MCP (Model Context Protocol) server integration.
 
+## 🔐 Environment Variables Setup (.env)
+
+Create a `.env` file in the root directory of the project.
+
+Then configure the following keys:
+
+```bash
+# Google Gemini (100% Free Tier Option)
+
+VITE_GEMINI_API_KEY=your_gemini_key_here
+```
+
 ## 📖 How to Run
-1. **WORKAROUND APPLIED**: I have created a `.env` file in the root directory using the keys you provided in `.env.example`. This is a workaround since the Secrets panel was not visible in your UI.
+1. **WORKAROUND APPLIED**: Add a `.env` file in the root directory using the keys mentioned above.
 2. The application will automatically initialize the `agent_orchestrator.db`.
 3. Start chatting! The agent will use RAG when you ask about technical architecture.
