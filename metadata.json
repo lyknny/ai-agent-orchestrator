@@ -1,0 +1,5 @@
+{
+  "name": "AI Agent Orchestrator",
+  "description": "Enterprise-grade AI agent runtime with FastAPI backend, Electron desktop integration, RAG pipelines, and multi-model support.",
+  "requestFramePermissions": []
+}
